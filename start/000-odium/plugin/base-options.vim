@@ -8,7 +8,7 @@ set encoding=utf-8
 set list listchars=tab:»»,trail:·,nbsp:·
 set nojoinspaces
 set nrformats=bin,octal,hex
-set textwidth=80
+set textwidth=120
 
 " Execution
 set history=1000
@@ -17,7 +17,7 @@ set history=1000
 set autoindent
 set backspace=indent,eol,start
 set expandtab
-set shiftwidth=4
+set shiftwidth=2
 set smartindent
 set smarttab
 set softtabstop=4
@@ -72,4 +72,5 @@ inoremap <C-C> <NOP>
 " Layers leader key
 let mapleader = "\<Space>"
 
-helptags ALL
+" Not always working
+"helptags ALL
