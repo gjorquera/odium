@@ -47,6 +47,7 @@ set numberwidth=4
 set relativenumber
 set ruler
 set showtabline=1
+set spell
 set splitbelow
 set splitright
 
