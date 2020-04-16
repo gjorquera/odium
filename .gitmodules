@@ -1,0 +1,9 @@
+[submodule "start/gruvbox"]
+	path = start/gruvbox
+	url = git@github.com:morhetz/gruvbox.git
+[submodule "start/lightline.vim"]
+	path = start/lightline.vim
+	url = git@github.com:itchyny/lightline.vim
+[submodule "start/indentLine"]
+	path = start/indentLine
+	url = git@github.com:Yggdroot/indentLine.git
