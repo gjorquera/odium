@@ -7,3 +7,6 @@
 [submodule "start/indentLine"]
 	path = start/indentLine
 	url = git@github.com:Yggdroot/indentLine.git
+[submodule "start/goyo.vim"]
+	path = start/goyo.vim
+	url = git@github.com:junegunn/goyo.vim.git
