@@ -10,3 +10,6 @@
 [submodule "start/goyo.vim"]
 	path = start/goyo.vim
 	url = git@github.com:junegunn/goyo.vim.git
+[submodule "start/vim-tmux-navigator"]
+	path = start/vim-tmux-navigator
+	url = git@github.com:christoomey/vim-tmux-navigator.git
