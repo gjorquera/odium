@@ -37,3 +37,6 @@
 [submodule "start/402-swift"]
 	path = start/402-swift
 	url = git@github.com:keith/swift.vim.git
+[submodule "start/160-conflict-marker"]
+	path = start/160-conflict-marker
+	url = git@github.com:rhysd/conflict-marker.vim.git
