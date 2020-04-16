@@ -40,3 +40,6 @@
 [submodule "start/160-conflict-marker"]
 	path = start/400-conflict-marker
 	url = git@github.com:rhysd/conflict-marker.vim.git
+[submodule "start/410-tabular"]
+	path = start/410-tabular
+	url = git@github.com:godlygeek/tabular
