@@ -1,3 +1,5 @@
+if exists("b:did_ftplugin") | finish | endif
+
 "v -> vim
 
 nnoremap <Leader>vco :edit $MYVIMRC<CR>

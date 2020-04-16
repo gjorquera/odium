@@ -1,3 +1,5 @@
+if exists("b:did_ftplugin") | finish | endif
+
 let g:tex_conceal = ""
 let g:vim_markdown_auto_insert_bullets = 0
 let g:vim_markdown_conceal = 0
