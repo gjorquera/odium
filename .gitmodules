@@ -16,3 +16,9 @@
 [submodule "start/nerdtree"]
 	path = start/nerdtree
 	url = git@github.com:scrooloose/nerdtree.git
+[submodule "start/fzf"]
+	path = start/fzf
+	url = git@github.com:junegunn/fzf.git
+[submodule "start/fzf.vim"]
+	path = start/fzf.vim
+	url = git@github.com:junegunn/fzf.vim.git
