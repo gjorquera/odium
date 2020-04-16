@@ -27,7 +27,9 @@ set ttimeoutlen=100
 let g:netrw_dirhistmax = 0
 
 " Interface
+colorscheme gruvbox
 set autoread
+set background=dark
 set colorcolumn=+0
 set cursorline
 set fillchars+=vert:│
@@ -42,9 +44,9 @@ set novisualbell
 set numberwidth=4
 set relativenumber
 set ruler
+set showtabline=1
 set splitbelow
 set splitright
-set showtabline=1
 
 " Search
 set hlsearch
@@ -66,3 +68,5 @@ inoremap <C-C> <NOP>
 
 " Layers leader key
 let mapleader = "\<Space>"
+
+helptags ALL
