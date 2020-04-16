@@ -22,3 +22,6 @@
 [submodule "start/fzf.vim"]
 	path = start/fzf.vim
 	url = git@github.com:junegunn/fzf.vim.git
+[submodule "start/supertab"]
+	path = start/supertab
+	url = git@github.com:ervandew/supertab.git
