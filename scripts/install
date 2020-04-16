@@ -1,0 +1,14 @@
+#!/bin/bash
+
+set -euo pipefail
+IFS=$'\n\t'
+
+cd "$(dirname $0)/.."
+
+TARGET="$HOME/.local/share/nvim/site/pack/"
+
+if [ ! -L "$TARGET/odium" ]; then
+    echo "Installing package into $TARGET..."
+    mkdir -p "$TARGET"
+    ln -sf "$PWD" "$TARGET/odium"
+fi
