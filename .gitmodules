@@ -28,3 +28,12 @@
 [submodule "start/220-vimux"]
 	path = start/220-vimux
 	url = git@github.com:benmills/vimux.git
+[submodule "start/400-markdown"]
+	path = start/400-markdown
+	url = git@github.com:gjorquera/vim-markdown.git
+[submodule "start/401-gradle"]
+	path = start/401-gradle
+	url = git@github.com:tfnico/vim-gradle.git
+[submodule "start/402-swift"]
+	path = start/402-swift
+	url = git@github.com:keith/swift.vim.git
