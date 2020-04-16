@@ -1,2 +1,4 @@
 let g:indentLine_char = '|'
-let g:indentLine_fileTypeExclude = ['help']
+" These filetypes are not set on BufWinEnter, therefore
+" g:indentLine_fileTypeExclude does not work.
+autocmd FileType help,nerdtree IndentLinesToggle
