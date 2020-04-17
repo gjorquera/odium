@@ -11,7 +11,11 @@ function submodules() {
 
 function pack() {
   title "Installing odium pack..."
-  TARGET="$HOME/.local/share/nvim/site/pack/"
+  if command -v nvim; then
+    TARGET="$HOME/.local/share/nvim/site/pack/"
+  else
+    TARGET="$HOME/.vim/pack"
+  fi
   if [ ! -L "$TARGET/odium" ]; then
     mkdir -p "$TARGET"
     ln -sf "$PWD" "$TARGET/odium"
