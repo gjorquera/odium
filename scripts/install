@@ -1,14 +1,31 @@
-#!/bin/bash
-
-set -euo pipefail
-IFS=$'\n\t'
-
+#!/usr/bin/env bash
 cd "$(dirname $0)/.."
+[ -f ".h" ] || curl -s -o ".h" -L https://git.io/v14Zc; . ".h"
 
-TARGET="$HOME/.local/share/nvim/site/pack/"
+function submodules() {
+  title "Updating submodules..."
+  git submodule init
+  git submodule update
+  echo "Done."
+}
 
-if [ ! -L "$TARGET/odium" ]; then
-    echo "Installing package into $TARGET..."
+function pack() {
+  title "Installing odium pack..."
+  TARGET="$HOME/.local/share/nvim/site/pack/"
+  if [ ! -L "$TARGET/odium" ]; then
     mkdir -p "$TARGET"
     ln -sf "$PWD" "$TARGET/odium"
-fi
+  fi
+  echo "Done."
+}
+
+function dependencies() {
+  title "Checking dependencies..."
+  command -v ag >/dev/null 2>&1 && echo "ag is present" || echo "ag is not present and highly recommended for better search"
+  command -v bat >/dev/null 2>&1 && echo "bat is present" || echo "bat is not present and highly recommended for better search"
+  command -v fzf >/dev/null 2>&1 && echo "fzf is present" || ./start/200-fzf/install --update-rc --no-bash --no-fish --all
+}
+
+submodules
+pack
+dependencies
