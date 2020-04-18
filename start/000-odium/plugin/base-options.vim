@@ -33,6 +33,7 @@ colorscheme gruvbox
 set autoread
 set background=dark
 set colorcolumn=+0
+set conceallevel=0
 set cursorline
 set fillchars+=vert:│
 set laststatus=2
