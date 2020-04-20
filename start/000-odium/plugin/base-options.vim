@@ -57,6 +57,7 @@ set signcolumn=yes
 set spell
 set splitbelow
 set splitright
+set termguicolors
 set updatetime=300
 
 " Search
