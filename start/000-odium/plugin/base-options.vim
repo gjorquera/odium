@@ -3,6 +3,11 @@ if exists("b:did_ftplugin") | finish | endif
 filetype plugin indent on
 syntax enable
 
+" Backups
+set nobackup
+set noswapfile
+set nowritebackup
+
 " Editing
 set encoding=utf-8
 set list listchars=tab:»»,trail:·,nbsp:·
@@ -11,6 +16,7 @@ set nrformats=bin,octal,hex
 set textwidth=120
 
 " Execution
+set hidden
 set history=1000
 
 " Indent
@@ -39,18 +45,19 @@ set fillchars+=vert:│
 set laststatus=2
 set modelines=1
 set mouse-=a
-set nobackup
 set noerrorbells
 set noshowmode
-set noswapfile
 set novisualbell
 set numberwidth=4
 set relativenumber
 set ruler
+set shortmess+=c
 set showtabline=1
+set signcolumn=yes
 set spell
 set splitbelow
 set splitright
+set updatetime=300
 
 " Search
 set hlsearch
