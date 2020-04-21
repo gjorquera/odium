@@ -4,9 +4,6 @@
 [submodule "start/lightline.vim"]
 	path = start/110-lightline
 	url = git@github.com:itchyny/lightline.vim
-[submodule "start/indentLine"]
-	path = start/120-indentline
-	url = git@github.com:Yggdroot/indentLine.git
 [submodule "start/goyo.vim"]
 	path = start/140-goyo
 	url = git@github.com:junegunn/goyo.vim.git
