@@ -27,7 +27,8 @@ function dependencies() {
   title "Checking dependencies..."
   command -v ag >/dev/null 2>&1 && echo "ag is present" || echo "ag is not present and highly recommended for better search"
   command -v bat >/dev/null 2>&1 && echo "bat is present" || echo "bat is not present and highly recommended for better search"
-  command -v fzf >/dev/null 2>&1 && echo "fzf is present" || ./start/200-fzf/install --update-rc --no-bash --no-fish --all
+  command -v fzf >/dev/null 2>&1 && echo "fzf is present" || \
+    ./start/200-fzf/install --update-rc --no-key-bindings --no-completion --no-bash --no-fish --all
 }
 
 submodules
