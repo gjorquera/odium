@@ -1,5 +1,5 @@
-if exists("g:odium_config_vimux") | finish | endif
-let g:odium_config_vimux = 1
+if exists("g:odium_language_markdown") | finish | endif
+let g:odium_language_markdown = 1
 
 let g:vim_markdown_auto_insert_bullets = 0
 let g:vim_markdown_conceal = 0

@@ -1,4 +1,5 @@
-if exists("b:did_ftplugin") | finish | endif
+if exists("g:odium_base") | finish | endif
+let g:odium_base = 1
 
 filetype plugin indent on
 syntax enable
@@ -80,6 +81,3 @@ inoremap <C-C> <NOP>
 
 " Layers leader key
 let mapleader = "\<Space>"
-
-" Not always working
-"helptags ALL

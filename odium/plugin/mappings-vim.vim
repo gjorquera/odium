@@ -1,6 +1,5 @@
-if exists("b:did_ftplugin") | finish | endif
-
-"v -> vim
+if exists("g:odium_mappings_vim") | finish | endif
+let g:odium_mappings_vim = 1
 
 nnoremap <Leader>vco :edit $MYVIMRC<CR>
 nnoremap <Leader>vcv :vsplit $MYVIMRC<CR>
