@@ -43,3 +43,6 @@
 [submodule "opt/300-nvim-lsp"]
 	path = opt/300-nvim-lsp
 	url = git@github.com:neovim/nvim-lsp.git
+[submodule "start/310-supertab"]
+	path = start/310-supertab
+	url = git@github.com:ervandew/supertab.git
