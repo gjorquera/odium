@@ -1,45 +1,42 @@
 [submodule "start/gruvbox"]
-	path = start/100-gruvbox
+	path = start/2-colors-gruvbox
 	url = git@github.com:morhetz/gruvbox.git
 [submodule "start/lightline.vim"]
-	path = start/110-lightline
+	path = start/3-interface-lightline
 	url = git@github.com:itchyny/lightline.vim
 [submodule "start/goyo.vim"]
-	path = start/140-goyo
+	path = start/3-interface-goyo
 	url = git@github.com:junegunn/goyo.vim.git
 [submodule "start/vim-tmux-navigator"]
-	path = start/150-vim-tmux-navigator
+	path = start/3-interface-vim-tmux-navigator
 	url = git@github.com:christoomey/vim-tmux-navigator.git
 [submodule "start/nerdtree"]
-	path = start/130-nerdtree
+	path = start/3-interface-nerdtree
 	url = git@github.com:scrooloose/nerdtree.git
 [submodule "start/fzf"]
-	path = start/200-fzf
+	path = start/3-interface-fzf
 	url = git@github.com:junegunn/fzf.git
 [submodule "start/fzf.vim"]
-	path = start/210-fzf-vim
+	path = start/3-interface-fzf-vim
 	url = git@github.com:junegunn/fzf.vim.git
 [submodule "start/220-vimux"]
-	path = start/220-vimux
+	path = start/3-interface-vimux
 	url = git@github.com:benmills/vimux.git
-[submodule "start/400-markdown"]
-	path = start/501-markdown
-	url = git@github.com:gjorquera/vim-markdown.git
 [submodule "start/401-gradle"]
-	path = start/500-gradle
+	path = start/6-languages-gradle
 	url = git@github.com:tfnico/vim-gradle.git
 [submodule "start/402-swift"]
-	path = start/502-swift
+	path = start/6-languages-swift
 	url = git@github.com:keith/swift.vim.git
 [submodule "start/160-conflict-marker"]
-	path = start/400-conflict-marker
+	path = start/5-editing-conflict-marker
 	url = git@github.com:rhysd/conflict-marker.vim.git
 [submodule "start/410-tabular"]
-	path = start/410-tabular
+	path = start/5-editing-tabular
 	url = git@github.com:godlygeek/tabular
 [submodule "start/503-kotlin"]
-	path = start/503-kotlin
+	path = start/6-languages-kotlin
 	url = git@github.com:gjorquera/kotlin-vim.git
 [submodule "start/310-supertab"]
-	path = start/310-supertab
+	path = start/4-autocomplete-supertab
 	url = git@github.com:ervandew/supertab.git
