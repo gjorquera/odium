@@ -12,6 +12,7 @@ set nowritebackup
 " Editing
 set encoding=utf-8
 set list listchars=tab:»»,trail:·,nbsp:·
+set nofoldenable
 set nojoinspaces
 set nrformats=bin,octal,hex
 set textwidth=120
