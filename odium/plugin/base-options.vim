@@ -1,6 +1,3 @@
-if exists("g:odium_base") | finish | endif
-let g:odium_base = 1
-
 filetype plugin indent on
 syntax enable
 
@@ -11,6 +8,7 @@ set nowritebackup
 
 " Editing
 set encoding=utf-8
+set formatoptions=tcqj
 set list listchars=tab:»»,trail:·,nbsp:·
 set nofoldenable
 set nojoinspaces
