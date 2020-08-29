@@ -9,7 +9,7 @@ Odium, simply clone this repository and run `./script/install`.
 
 ```bash
 cd /path/to/workspaces
-git clone git@github.com:vim-odium/odium.git
+git clone git@github.com:gjorquera/odium.git
 cd odium
 ./script/install
 ```
