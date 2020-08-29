@@ -34,9 +34,6 @@
 [submodule "start/410-tabular"]
 	path = start/5-editing-tabular
 	url = git@github.com:godlygeek/tabular
-[submodule "start/503-kotlin"]
-	path = start/6-languages-kotlin
-	url = git@github.com:gjorquera/kotlin-vim.git
 [submodule "start/310-supertab"]
 	path = start/4-autocomplete-supertab
 	url = git@github.com:ervandew/supertab.git
