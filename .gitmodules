@@ -37,3 +37,6 @@
 [submodule "supertab"]
 	path = start/4-autocomplete-supertab
 	url = git@github.com:ervandew/supertab.git
+[submodule "vim-markdown"]
+	path = start/6-languages-markdown
+	url = git@github.com:bouk/vim-markdown.git
