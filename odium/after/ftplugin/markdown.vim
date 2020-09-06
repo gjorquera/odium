@@ -1,2 +1,2 @@
 setlocal comments=b:>
-setlocal textwidth=80
+setlocal textwidth=78
