@@ -48,6 +48,7 @@ set mouse-=a
 set noerrorbells
 set noshowmode
 set novisualbell
+set nowrap
 set numberwidth=4
 set relativenumber
 set ruler
@@ -67,7 +68,7 @@ set incsearch
 set smartcase
 
 " Auto-Expanding Windows - HAS TO BE AT THE END
-set winwidth=84
+set winwidth=70
 set winheight=7
 set winminheight=7
 set winheight=999
