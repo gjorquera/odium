@@ -40,3 +40,6 @@
 [submodule "vim-markdown"]
 	path = start/6-languages-markdown
 	url = git@github.com:bouk/vim-markdown.git
+[submodule "start/6-languages-kotlin"]
+	path = start/6-languages-kotlin
+	url = https://github.com/udalov/kotlin-vim.git
